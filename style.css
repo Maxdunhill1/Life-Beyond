@@ -1,0 +1,251 @@
+/* || FONT */
+@font-face {
+    font-family: "Alien";
+    src: url("/Font/Alien/ALIENS1986.woff2") format("woff2"),
+    url("Font/Alien/ALIENS1986.woff") format("woff");
+}
+
+
+/* || GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+section{
+    height: 100vh;
+}
+
+
+/* || MENU */
+
+#menu{
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    background-color: black;
+}
+#menu a{
+    color: rgb(179, 179, 179);
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-style: solid;
+    border-top-width: 1.5px;
+    transition: all ease 0.5s;
+
+}
+#menu a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+/* || INTRO - VIDEO ON SCROLL */
+
+#intro {
+    height: 100vh;
+    width: 100%;
+
+}
+#intro video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#intro h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -2px;
+    opacity: 0;
+}
+#h01{
+    opacity: 1;
+}
+#h06{
+    text-align: center;
+    line-height: 0.6em;
+}
+#h06 .text{
+    font-family: "Alien";
+    font-size: 100px;
+    letter-spacing: 20px;
+    line-height: 1em;
+}
+#h06 .text0{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 0em;
+
+}
+#h06 .text1{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    line-height: 0em;
+
+}
+
+
+/* || SECTION1 */
+
+#section1{
+    width: 100%;
+    position: relative;
+    background-color: black;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+#section1 p{
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    font-weight: 100;
+    letter-spacing: -0.5px;
+    font-style: italic;
+    width: 600px;
+}
+#section1 .p2{
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    font-weight: 100;
+    letter-spacing: -0.5px;
+    width: 500px;
+    font-style: normal;
+    line-height: 25px;
+}
+#section1 H1{
+    color:rgb(176, 144, 103);
+    font-size: 32px;
+    font-family: helvetica;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+    width: 550px;
+}
+#section1 img{
+    margin-left: -80px;
+    height: 90%;
+}
+
+#text {
+    width: 700px;
+}
+
+/* || SECTION2 */
+
+#section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+}
+#section2 p{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#section2 #title{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+#section2 #link{
+    display: flex;
+    flex-direction: row;
+    z-index:10;
+}
+
+#section2 #link h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+#section2 #link h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    width: 300px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+#section2 #link p{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+#section2 #link div{
+    margin: 50px;
+}
+
+#section2 #link img{
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#section2 a{
+    color: rgb(223,191,96);
+    transition: all ease 0.7s;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#section2 a:hover{
+    color: rgb(255, 227, 142);
+}
+
+.arrow {
+    border: solid rgb(223,191,96);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
